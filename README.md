@@ -1,6 +1,9 @@
 # Best Practices Flutter Repository
 Welcome to the Best Practices Flutter Repository! This repository is a collection of best practices and solutions for common problems, organized into branches based on specific features. Whether you're a newcomer or an experienced developer, this repository aims to provide valuable insights and solutions to enhance your projects.
 
+## Branch Explanation
+Master branch contain all necessary code to start application development, the directory structure already implemented based on Clean Architecture principle. Furthermore, master branch will be a core template for other branch.
+
 ## Clean Architecture
 
 Clean Architecture is a software design philosophy that separates concerns into distinct layers, allowing for better organization, maintainability, and testability of your code. This repository follows the principles of Clean Architecture to ensure that each component of the system is isolated and easily replaceable, promoting flexibility and ease of development.
