@@ -1,11 +1,7 @@
 # Best Practices Flutter Repository
 Welcome to the Best Practices Flutter Repository! This repository is a collection of best practices and solutions for common problems, organized into branches based on specific features. Whether you're a newcomer or an experienced developer, this repository aims to provide valuable insights and solutions to enhance your projects.
 
-## Branch Explanation
-Master branch contain all necessary code to start application development, the directory structure already implemented based on Clean Architecture principle. Furthermore, master branch will be a core template for other branch.
-
 ## Clean Architecture
-
 Clean Architecture is a software design philosophy that separates concerns into distinct layers, allowing for better organization, maintainability, and testability of your code. This repository follows the principles of Clean Architecture to ensure that each component of the system is isolated and easily replaceable, promoting flexibility and ease of development.
 
 ## Getting Started
@@ -26,13 +22,7 @@ git checkout branch-name
 ## Branches Overview
 Here's a brief overview of the branches available in this repository:
 
-**master:** This branch serves as the main branch and may contain general information about the repository and overall guidelines.
-
-**feature-1:** This branch focuses on [Description of Feature 1].
-
-**feature-2:** This branch focuses on [Description of Feature 2].
-
-**feature-3:** This branch focuses on [Description of Feature 3].
+**master:** Master branch serves as the main branch and contain general information about the repository and overall guidelines. Master branch also contain all necessary code to start application development, the directory structure already implemented based on Clean Architecture principle. Furthermore, master branch will be a core template for other branch.
 
 ## Contributing
 Contributions to this repository are welcome! If you have additional best practices or solutions to share, feel free to submit a pull request. Please ensure that your contributions align with the overall goal and structure of the repository.
