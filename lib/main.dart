@@ -1,20 +1,16 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+import 'app/my_app.dart';
+import 'core/hive/init_hive.dart';
+import 'injection.dart' as di;
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  // INIT HIVE
+  await initHive();
+  // INIT INJECTOR
+  di.init();
+
+  runApp(const MyApp());
 }
