@@ -1,0 +1,3 @@
+class ExamplePageArgs {
+  const ExamplePageArgs();
+}
