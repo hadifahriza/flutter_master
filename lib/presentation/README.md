@@ -1,5 +1,8 @@
 # Explanation Presentation
 
+**splash_screens.dart**
+Page for customable splash screen.
+
 ## example_page
 Contain an example code relate to how I manage each **Page** or each **Feature**. Inside this directory will have 
 1. **widgets directory** which contain all specific widget that only be used in specific page or feature.

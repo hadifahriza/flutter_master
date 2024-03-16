@@ -1,5 +1,11 @@
 # Explanation
 
+**injection.dart**
+Define a service locator which make code cleaner and less dependencies.
+
+**main.dart**
+Root of the application.
+
 ## app directory
 Define main app such as top level widget, list of routes that will be used in the app, and list of provider that will be used.
 
@@ -14,9 +20,3 @@ Define domain layer with business rule, independent layer that contain usecase, 
 
 ## presentation
 Define presentation layer that will be used by the user. presentation directory will contain all pages in app.
-
-**injection.dart**
-Define a service locator which make code cleaner and less dependencies.
-
-**main.dart**
-Root of the application.
